@@ -1,0 +1,9 @@
+n=int(input("Enter number of terms:"))
+print("Fibonacci Series:")
+t=0
+t1=1
+for i in range (n):
+    print(t,end=" ")
+    t3=t+t1
+    t=t1
+    t1=t3
